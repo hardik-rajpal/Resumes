@@ -1,13 +1,17 @@
 \documentclass[10pt]{article}
+\usepackage{lmodern}
+\usepackage[scaled]{helvet}
+\renewcommand*\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
 \usepackage[a4paper,bottom = 0.251969in,left = 0.55551181in,right = 0.55551181in,top = 0.6in]{geometry}
 \input{latex/packages}
 \input{latex/iconcmds}
 \begin{document}
 % \vspace*{100pt}
 \vspace*{150pt}
-\sectionheader{Scholastic Achievements}
+\sectionheader{{\faIcon{trophy}} Scholastic Achievements}
 \input{misc/scholastic}
-\sectionheader{Work Experience}
+\sectionheader{{\faIcon{briefcase}} Work Experience}
 \input{work/isid}
 \vspace{-8pt}
 \input{work/quadeye}
@@ -15,14 +19,12 @@
 \input{work/winzo}
 \vspace{-8pt}
 \input{work/bodhitree}
-\sectionheader{Projects}
+\sectionheader{{\faIcon{lightbulb}} Projects}
 \input{projects/Educare}
 \vspace{-8pt}
 \input{projects/coreader}
-\sectionheader{Technical Skills}
+\sectionheader{{\faIcon{code}} Technical Skills}
 \input{misc/langsAndApps}
 \vspace*{1mm}
 % \vspace*{\fill}
 \end{document}
-
-
