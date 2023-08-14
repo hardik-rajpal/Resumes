@@ -4,7 +4,12 @@
 \section*{\large\color{purple} #1 \color{magenta}\xfilll[4pt]{2pt}}
 \vspace{-10pt}
 }
-\newcommand{\emerrow}{\color{Emerald}\faArrowRight\color{black}\hspace{1mm}}
+\newcommand{\emerrow}{\faIcon{arrow-right}\hspace{1mm}}
+\newcommand{\jobroleAndStack}[2]{
+    \faIcon{user-tie}\hspace{1mm} #1 
+    \hfill
+    \faIcon{layer-group}\hspace{1mm} #2
+}
 \newcommand{\aws}{\faIcon{aws}}
 \newcommand{\bs}{\faIcon{bootstrap}}
 \newcommand{\js}{\faIcon{js}}
