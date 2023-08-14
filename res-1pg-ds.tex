@@ -1,0 +1,30 @@
+\documentclass[10pt]{article}
+\usepackage{lmodern}
+\usepackage[scaled]{helvet}
+\renewcommand*\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,bottom = 0.251969in,left = 0.55551181in,right = 0.55551181in,top = 0.6in]{geometry}
+\input{latex/packages}
+\input{latex/iconcmds}
+\begin{document}
+\vspace*{100pt}
+% \vspace*{150pt}
+\sectionheader{{\faIcon{trophy}} Scholastic Achievements}
+\input{misc/scholastic}
+\sectionheader{{\faIcon{briefcase}} Work Experience}
+\input{work/quadeye}
+\input{work/winzo}
+\input{work/bodhitree}
+\sectionheader{{\faIcon{lightbulb}} Projects}
+\input{projects/knowyourtube}
+\vspace{-8pt}
+\input{projects/junglechats}
+\vspace{-8pt}
+\input{projects/githubProfiles}
+\sectionheader{{\faIcon{code}} Technical Skills}
+\input{misc/langsAndApps}
+\sectionheader{{\faIcon{graduation-cap}} Relevant Courses}
+\input{misc/courses}
+\twocourses{\coursesds}{\coursesmaths}
+\vspace*{\fill}
+\end{document}
